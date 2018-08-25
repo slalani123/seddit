@@ -1,0 +1,23 @@
+
+
+{% extends "base.html" %}
+
+
+{% block content %}
+<body>
+  <br>
+  <br>
+  <form action="/index.html/" method="post">
+    <input id="username" type="text" name="username" value="{{ username }}"
+    placeholder="username">
+    
+    <input id="password" type="text" name="password" value="{{ password }}"
+    placeholder="password">
+    
+    
+    
+      <input type="submit">
+  </form>
+</body>
+
+{%endblock content%}
